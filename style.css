@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(261deg, #162758 2.47%, #0A142A 97.49%);
+}
+
+
+.gradient1 {
+    height: 300px;
+    width: 350px;
+    border-radius: 1000px;
+    opacity: 0.4;
+    background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    filter: blur(50px);
+    position: absolute;
+    top: 0%;
+    left: -50px;
+}
+
+.gradient2 {
+    height: 300px;
+    width: 400px;
+    border-radius: 1000px;
+    opacity: 0.4;
+    background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    filter: blur(50px);
+    position: absolute;
+    bottom: 0px;
+}
+
+@keyframes moveGradient1 {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes moveGradient2 {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+    gap: 11px;
+    padding-right: 11px
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.logo h1 {
+    padding: 11px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo h1 span {
+    color: #E11D2E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    gap: 3px;
+}
+
+.btn {
+    width: 130px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AC1216;
+    color: #FFF;
+    text-align: center;
+    padding: 11px;
+    font-size: 11px;
+}
+
+.spiderShiba {
+    height: 900px
+}
+
+.left {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.left h2 {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 70px;
+    font-style: normal;
+
+}
+
+.left h2 span {
+    color: #E11D2E;
+    font-family: SF Pro Display;
+    font-size: 70px;
+    font-style: normal;
+}
+
+.left p {
+    color: #A0A3B5;
+    font-family: SF Pro Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.p_first {
+    color: #71768E;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.first_btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: #E11D2E;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+}
+
+.second_btn {
+    margin-left: 10px;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+}
+
+.box .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right img {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    margin-right: 70px;
+}
+
+.box .container .right {
+    margin-top: 30px;
+    margin-right: 90px;
+}
+
+
+.right {
+    position: relative;
+}
+
+.gradient3 {
+    height: 500px;
+    width: 500px;
+    border-radius: 1000px;
+    opacity: 0.4;
+    background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    filter: blur(50px);
+    position: absolute;
+    top: 70px;
+    right: 400px;
+    z-index: 1;
+
+}
+
+.gradient4 {
+    height: 300px;
+    width: 350px;
+    border-radius: 1000px;
+    opacity: 0.4;
+    background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    filter: blur(50px);
+    position: absolute;
+    top: 70px;
+    right: 160px;
+    z-index: 1;
+}
