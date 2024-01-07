@@ -14,6 +14,12 @@ body {
     background: linear-gradient(261deg, #162758 2.47%, #0A142A 97.49%);
 }
 
+.gradienti {
+    display: flex;
+    position: relative;
+    top: -450px;
+    left: 0px;
+}
 
 .gradient1 {
     height: 300px;
@@ -23,8 +29,8 @@ body {
     background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
     filter: blur(50px);
     position: absolute;
-    top: 0%;
     left: -50px;
+    margin-top: 140px;
 }
 
 .gradient2 {
@@ -35,28 +41,10 @@ body {
     background: radial-gradient(35.78% 35.77% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
     filter: blur(50px);
     position: absolute;
+    left: -30px;
     bottom: 0px;
 }
 
-@keyframes moveGradient1 {
-    from {
-        transform: translateX(-100%);
-    }
-
-    to {
-        transform: translateX(100%);
-    }
-}
-
-@keyframes moveGradient2 {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
 
 .container {
     width: 1400px;
@@ -207,6 +195,12 @@ header {
 
 .right {
     position: relative;
+}
+
+.gradienti2 {
+    position: relative;
+    top: -300px;
+    right: -60px;
 }
 
 .gradient3 {
@@ -382,13 +376,14 @@ header {
     margin-bottom: 100px;
 }
 
-.text_box{
+.text_box {
     position: relative;
     top: -490px;
     width: 552px;
     margin-left: 500px;
     z-index: 2;
 }
+
 .text_box button {
     color: #FFF;
     padding: 10px 45px 15px 45px;
@@ -401,7 +396,8 @@ header {
     margin-left: 170px;
     border: none;
 }
-.text_box p{
+
+.text_box p {
     color: #FFF;
     text-align: center;
     font-family: SF Pro Display;
